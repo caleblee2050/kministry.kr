@@ -9,11 +9,15 @@ COPY index.html /usr/share/nginx/html/
 COPY styles.css /usr/share/nginx/html/
 COPY script.js /usr/share/nginx/html/
 
-# Nginx 설정 파일 추가
-COPY nginx.conf /etc/nginx/conf.d/default.conf
+# Nginx 설정 파일을 템플릿으로 복사
+COPY nginx.conf /etc/nginx/conf.d/default.conf.template
 
-# 포트 노출
-EXPOSE 80
+# Entrypoint 스크립트 복사 및 실행 권한 부여
+COPY docker-entrypoint.sh /docker-entrypoint.sh
+RUN chmod +x /docker-entrypoint.sh
 
-# Nginx 실행
-CMD ["nginx", "-g", "daemon off;"]
+# 포트 노출 (Railway의 PORT 환경변수 사용)
+EXPOSE ${PORT:-80}
+
+# Entrypoint 설정
+ENTRYPOINT ["/docker-entrypoint.sh"]
