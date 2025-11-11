@@ -1,0 +1,20 @@
+# OS 파일
+.DS_Store
+Thumbs.db
+
+# 에디터 설정
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그
+*.log
+
+# 환경 변수
+.env
+.env.local
+
+# Railway
+.railway/
