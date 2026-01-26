@@ -4,7 +4,7 @@
 
 ## 프로젝트 개요
 
-**KEEN (Karen Equipped Embracing Nations)** 킨미니스트리는 듣고 동행하는 관계 중심의 카렌 난민 선교를 수행하는 비영리단체입니다.
+**KEEN (Karen Equipped Embracing Nations)** 킨미니스트리는 카렌의 친구가 되는 카렌 이주주민 선교를 수행하는 비영리단체입니다.
 
 ### 주요 특징
 
@@ -40,7 +40,7 @@ kministry.kr/
 
 ### 4. 사역 (Ministry)
 - 4가지 주요 사역 소개
-  - 방과후 교육
+  - 한글교육
   - 이중언어 예배
   - 심리정서 돌봄
   - 리더십 양성
@@ -110,16 +110,16 @@ git push -u origin main
 `index.html` 파일의 후원 섹션에서 계좌 정보를 실제 정보로 변경하세요:
 
 ```html
-<p class="account-number">국민은행 123456-78-910111</p>
-<p class="account-name">예금주: 킨미니스트리</p>
+<p class="account-number">하나KEB 115-910049-84104</p>
+<p class="account-name">예금주: 킨(KEEN)</p>
 ```
 
 ### 4. 연락처 정보 업데이트
 `index.html` 파일의 연락 섹션에서 실제 연락처로 변경하세요:
 
 ```html
-<p>keen@ministry.kr</p>
-<p>010-1234-5678</p>
+<p>keen@kministry.kr</p>
+<p>010-4905-4620</p>
 ```
 
 ### 5. 팀 사진 추가
@@ -195,8 +195,8 @@ Node.js, PHP 등을 사용하여 자체 백엔드 구축
 ## 문의
 
 홈페이지 관련 문의사항은 아래로 연락주세요:
-- 이메일: keen@ministry.kr
-- 전화: 010-1234-5678
+- 이메일: keen@kministry.kr
+- 전화: 010-4905-4620
 
 ---
 
